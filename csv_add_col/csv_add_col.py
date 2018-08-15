@@ -1,7 +1,7 @@
 import csv
 
 
-class add_col_to_csv:
+class CsvAddCol:
     """Class that adds a column to a given csv file and uses a supplied function to add a value to all the rows"""
 
     def __init__(self, in_csvfile, out_csvfile, col_name, cell_filler):
@@ -20,13 +20,4 @@ class add_col_to_csv:
         writer.writerows(rows)
 
 
-def fill_cell(r):
-    if "Y" in r[2:]:
-        r.append("Y")
-    else:
-        r.append("N")
-
-
-xgcsv = add_col_to_csv("XaggetTestDispatchMapping.csv", "out.csv", "Covered", fill_cell)
-xgcsv.add_col()
 
