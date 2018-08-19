@@ -4,7 +4,7 @@ class Queue:
 
 
     def is_empty(self):
-        return self.items = []
+        return self.items == []
 
 
     def enqueue(self, item):
