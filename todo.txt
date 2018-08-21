@@ -1,0 +1,13 @@
+## CSV
+
+Review excel and make a list of features to implement
+
+* Insert column
+* Insert row
+* Delete column
+* Delete row
+* Add column (create a column and fill it by provided function)
+* Add row (create a row and fill it by provided function)
+* Fill cells (fill a range of cells from a list (of lists))
+
+
